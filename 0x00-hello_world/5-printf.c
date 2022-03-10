@@ -11,8 +11,7 @@
 
 int main(void)
 {
-	char grammar[100]=("with proper grammar, but the outcome is a piece of art,");
        	
-	printf(grammar);
+	printf("with proper grammar, but the outcome is a piece of art,");
 
 		return (0);
