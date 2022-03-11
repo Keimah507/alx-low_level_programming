@@ -7,16 +7,18 @@
  */
 int main(void)
 {
-	int i,e;
+	int i, e;
 
 	i = 48;
 	e = 48;
 
 	while (e < 58)
 	{
-		i=48;
+		i = 48;
 		while (i < 58)
 		{
+			if(e != i && e < i)
+			{
 			putchar(e);
 			putchar(i);
 			if (i == 57 && e == 56)
@@ -25,9 +27,12 @@ int main(void)
 			}
 			putchar(',');
 			putchar(' ');
+			}
+			i++;
 		}
-		i++;
+		e++;
 	}
+	
 	putchar('\n');
 	return (0);
 }
