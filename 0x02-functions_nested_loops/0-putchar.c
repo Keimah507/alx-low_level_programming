@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <main.h>
-#include <putchar.c>
+#include "main.h"
+#include "putchar.c"
 /*
  * main - output string putchar
  *
