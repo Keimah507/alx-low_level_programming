@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-#include "putchar.c"
 /*
  * main - output string putchar
  *
@@ -8,7 +7,7 @@
  */
 int main(void)
 {
-	char putchar = "_putchar";
+	char putchar =" _putchar";
 
 	putchar(putchar);
 
