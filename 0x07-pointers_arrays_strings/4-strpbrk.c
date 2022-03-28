@@ -10,7 +10,7 @@
  * Return: first occurrence of string s otherwise NULL
  */
 
-char *_strpbrk(char *s, char *accept);
+char *_strpbrk(char *s, char *accept)
 {
 	int a;
 
