@@ -4,7 +4,7 @@
 /**
  * _strpbrk - locate first occurrence of string s
  * of any bytes in the string accept
- * @s : string to be checked
+ * @s: string to be checked
  * @accept: string with the bytes
  *
  * Return: first occurrence of string s otherwise NULL
