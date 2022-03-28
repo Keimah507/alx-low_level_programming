@@ -3,7 +3,6 @@
 
 /**
  * _strpbrk - locate first occurrence of string s
- * of any bytes in the string accept
  * @s: string to be checked
  * @accept: string with the bytes
  *
@@ -19,9 +18,9 @@ char *_strpbrk(char *s, char *accept)
 
 		for (a = 0; accept[a]; i++)
 		{
-			if (*s == accept[i])
+			if (*s == accept[a])
 			{
-			return (s);
+				return (s);
 			}
 		}
 		s++;
