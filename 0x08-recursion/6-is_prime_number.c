@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 
 /**
  * is_prime_number - checks for prime number
@@ -21,7 +21,7 @@ int is_prime_number(int n)
  *
  * Return 1, otherwise 0
  */
-int actual_prime(intn, int i)
+int actual_prime(int n, int i)
 {
 	if (i == 1)
 		return (1);
