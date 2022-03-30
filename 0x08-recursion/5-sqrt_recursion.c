@@ -17,7 +17,7 @@ int _sqrt_recursion(int n)
 /**
  * _sqrt - _sqrt_recursion
  * @n: integer
- * @i: integer
+ * @i: iterator
  * Return: sqrt
  */
 int _sqrt(int n, int i)
