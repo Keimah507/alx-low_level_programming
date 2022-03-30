@@ -11,7 +11,7 @@ int is_prime_number(int n)
 {
 	if (n <= 1)
 		return (0);
-	return(actual_prime(n, -1));
+	return (actual_prime(n, -1));
 }
 
 /**
@@ -19,7 +19,7 @@ int is_prime_number(int n)
  * @n: integer
  * @i:iterator
  *
- * Return 1, otherwise 0
+ * Return: 1, otherwise 0
  */
 int actual_prime(int n, int i)
 {
@@ -27,5 +27,5 @@ int actual_prime(int n, int i)
 		return (1);
 	if (n % i == 0 && i > 0)
 		return (0);
-	return (actual_prime(n, i-1));
+	return (actual_prime(n, i - 1));
 }
