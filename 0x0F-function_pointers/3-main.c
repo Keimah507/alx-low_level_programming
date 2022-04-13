@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 
 	if (!func)
 	{
-		print("Error\n");
+		printf("Error\n");
 		exit(99);
 	}
 
