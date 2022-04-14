@@ -2,7 +2,7 @@
 
 /**
  * print_all - prints anything
- * @format list of types of arguments 
+ * @format: list of types of arguments
  * passed to the function
  */
 void print_all(const char *const format, ...)
@@ -31,9 +31,9 @@ void print_all(const char *const format, ...)
 					break;
 				case 's':
 					str = va_arg(list, char *);
-					if(!str)
+					if (!str)
 						str = "(nil)";
-					printf("%s%s", sep,str);
+					printf("%s%s", sep, str);
 					break;
 				default:
 					i++;
